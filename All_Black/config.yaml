@@ -1,0 +1,55 @@
+    # Project definitions (do not edit)
+Task: Larv
+scorer: Hadi
+date: Nov19
+multianimalproject: false
+
+    # Project path (change when moving around)
+project_path: /Users/hadi/Applications/Larv-Hadi-2020-10-19/All_Black
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/hadi/Applications/DLC_Videos/Record1.mp4:
+    crop: 0, 640, 0, 480
+bodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+- bodypart4
+- bodypart5
+- bodypart6
+start: 0
+stop: 1
+numframes2pick: 50
+
+    # Plotting configuration
+skeleton:
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 3
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
