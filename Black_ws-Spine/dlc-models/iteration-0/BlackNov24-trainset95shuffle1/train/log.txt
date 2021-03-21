@@ -1,0 +1,263 @@
+2020-11-29 21:03:37 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'Spine0',
+                      'Spine1',
+                      'Spine2',
+                      'Spine3',
+                      'Spine4',
+                      'Spine5',
+                      'Spine6'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_BlackNov24/Black_ws95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.6/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_BlackNov24/Documentation_data-Black_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 13,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/DLC/Black_ws-Spine',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/DLC/Black_ws-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2020-11-29 21:16:00 iteration: 1000 loss: 0.0277 lr: 0.005
+2020-11-29 21:21:17 iteration: 2000 loss: 0.0176 lr: 0.005
+2020-11-29 21:26:13 iteration: 3000 loss: 0.0153 lr: 0.005
+2020-11-29 21:30:36 iteration: 4000 loss: 0.0132 lr: 0.005
+2020-11-29 21:34:45 iteration: 5000 loss: 0.0118 lr: 0.005
+2020-11-29 21:38:56 iteration: 6000 loss: 0.0115 lr: 0.005
+2020-11-29 21:43:12 iteration: 7000 loss: 0.0108 lr: 0.005
+2020-11-29 21:47:28 iteration: 8000 loss: 0.0102 lr: 0.005
+2020-11-29 21:51:41 iteration: 9000 loss: 0.0096 lr: 0.005
+2020-11-29 21:56:00 iteration: 10000 loss: 0.0094 lr: 0.005
+2020-11-29 22:00:13 iteration: 11000 loss: 0.0111 lr: 0.02
+2020-11-29 22:04:21 iteration: 12000 loss: 0.0094 lr: 0.02
+2020-11-29 22:08:34 iteration: 13000 loss: 0.0084 lr: 0.02
+2020-11-29 22:12:43 iteration: 14000 loss: 0.0074 lr: 0.02
+2020-11-29 22:16:50 iteration: 15000 loss: 0.0068 lr: 0.02
+2020-11-29 22:21:07 iteration: 16000 loss: 0.0062 lr: 0.02
+2020-11-29 22:25:18 iteration: 17000 loss: 0.0056 lr: 0.02
+2020-11-29 22:29:32 iteration: 18000 loss: 0.0053 lr: 0.02
+2020-11-29 22:33:37 iteration: 19000 loss: 0.0047 lr: 0.02
+2020-11-29 22:37:50 iteration: 20000 loss: 0.0046 lr: 0.02
+2020-11-29 22:41:58 iteration: 21000 loss: 0.0044 lr: 0.02
+2020-11-29 22:46:16 iteration: 22000 loss: 0.0042 lr: 0.02
+2020-11-29 22:50:33 iteration: 23000 loss: 0.0040 lr: 0.02
+2020-11-29 22:54:56 iteration: 24000 loss: 0.0039 lr: 0.02
+2020-11-29 22:59:21 iteration: 25000 loss: 0.0037 lr: 0.02
+2020-11-29 23:03:42 iteration: 26000 loss: 0.0036 lr: 0.02
+2020-11-29 23:07:59 iteration: 27000 loss: 0.0035 lr: 0.02
+2020-11-29 23:12:06 iteration: 28000 loss: 0.0033 lr: 0.02
+2020-11-29 23:16:21 iteration: 29000 loss: 0.0033 lr: 0.02
+2020-11-29 23:20:30 iteration: 30000 loss: 0.0033 lr: 0.02
+2020-11-29 23:24:37 iteration: 31000 loss: 0.0031 lr: 0.02
+2020-11-29 23:28:42 iteration: 32000 loss: 0.0029 lr: 0.02
+2020-11-29 23:32:54 iteration: 33000 loss: 0.0029 lr: 0.02
+2020-11-29 23:36:57 iteration: 34000 loss: 0.0028 lr: 0.02
+2020-11-29 23:41:03 iteration: 35000 loss: 0.0028 lr: 0.02
+2020-11-29 23:45:07 iteration: 36000 loss: 0.0027 lr: 0.02
+2020-11-29 23:49:17 iteration: 37000 loss: 0.0027 lr: 0.02
+2020-11-29 23:53:24 iteration: 38000 loss: 0.0027 lr: 0.02
+2020-11-29 23:57:39 iteration: 39000 loss: 0.0027 lr: 0.02
+2020-11-30 00:01:45 iteration: 40000 loss: 0.0026 lr: 0.02
+2020-11-30 00:05:57 iteration: 41000 loss: 0.0025 lr: 0.02
+2020-11-30 00:10:04 iteration: 42000 loss: 0.0025 lr: 0.02
+2020-11-30 00:14:11 iteration: 43000 loss: 0.0024 lr: 0.02
+2020-11-30 00:18:14 iteration: 44000 loss: 0.0024 lr: 0.02
+2020-11-30 00:22:24 iteration: 45000 loss: 0.0024 lr: 0.02
+2020-11-30 00:26:40 iteration: 46000 loss: 0.0023 lr: 0.02
+2020-11-30 00:30:51 iteration: 47000 loss: 0.0023 lr: 0.02
+2020-11-30 00:35:00 iteration: 48000 loss: 0.0023 lr: 0.02
+2020-11-30 00:39:13 iteration: 49000 loss: 0.0022 lr: 0.02
+2020-11-30 00:43:23 iteration: 50000 loss: 0.0022 lr: 0.02
+2020-11-30 00:47:35 iteration: 51000 loss: 0.0023 lr: 0.02
+2020-11-30 00:51:41 iteration: 52000 loss: 0.0022 lr: 0.02
+2020-11-30 00:56:00 iteration: 53000 loss: 0.0022 lr: 0.02
+2020-11-30 01:00:15 iteration: 54000 loss: 0.0022 lr: 0.02
+2020-11-30 01:04:30 iteration: 55000 loss: 0.0021 lr: 0.02
+2020-11-30 01:08:43 iteration: 56000 loss: 0.0021 lr: 0.02
+2020-11-30 01:12:58 iteration: 57000 loss: 0.0021 lr: 0.02
+2020-11-30 01:17:08 iteration: 58000 loss: 0.0021 lr: 0.02
+2020-11-30 01:21:22 iteration: 59000 loss: 0.0021 lr: 0.02
+2020-11-30 01:25:27 iteration: 60000 loss: 0.0021 lr: 0.02
+2020-11-30 01:29:39 iteration: 61000 loss: 0.0020 lr: 0.02
+2020-11-30 01:33:44 iteration: 62000 loss: 0.0020 lr: 0.02
+2020-11-30 01:37:55 iteration: 63000 loss: 0.0019 lr: 0.02
+2020-11-30 01:42:05 iteration: 64000 loss: 0.0019 lr: 0.02
+2020-11-30 01:46:09 iteration: 65000 loss: 0.0019 lr: 0.02
+2020-11-30 01:50:18 iteration: 66000 loss: 0.0019 lr: 0.02
+2020-11-30 01:54:30 iteration: 67000 loss: 0.0019 lr: 0.02
+2020-11-30 01:58:41 iteration: 68000 loss: 0.0020 lr: 0.02
+2020-11-30 02:02:46 iteration: 69000 loss: 0.0019 lr: 0.02
+2020-11-30 02:07:01 iteration: 70000 loss: 0.0019 lr: 0.02
+2020-11-30 02:10:52 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'Spine0',
+                      'Spine1',
+                      'Spine2',
+                      'Spine3',
+                      'Spine4',
+                      'Spine5',
+                      'Spine6'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_BlackNov24/Black_ws95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.6/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 13,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/DLC/Black_ws-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2020-11-30 02:13:36 Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'Spine0',
+                      'Spine1',
+                      'Spine2',
+                      'Spine3',
+                      'Spine4',
+                      'Spine5',
+                      'Spine6'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_BlackNov24/Black_ws95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.6/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 13,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/DLC/Black_ws-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

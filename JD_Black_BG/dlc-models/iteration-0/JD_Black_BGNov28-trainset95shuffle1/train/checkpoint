@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-17000"
+all_model_checkpoint_paths: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-13000"
+all_model_checkpoint_paths: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-14000"
+all_model_checkpoint_paths: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-15000"
+all_model_checkpoint_paths: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-16000"
+all_model_checkpoint_paths: "/content/DLC/JD_Black_BG/dlc-models/iteration-0/JD_Black_BGNov28-trainset95shuffle1/train/snapshot-17000"
