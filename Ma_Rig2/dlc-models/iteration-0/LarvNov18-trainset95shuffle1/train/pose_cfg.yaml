@@ -1,0 +1,57 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+all_joints_names:
+- Mid
+- Front
+- Back
+alpha_r: 0.02
+batch_size: 8
+cropratio: 0.4
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_LarvNov18/Larv_Hadi95shuffle1.pickle
+dataset_type: multi-animal-imgaug
+decay_steps: 30000
+display_iters: 500
+global_scale: 0.8
+init_weights: /Users/hadi/opt/anaconda3/envs/DLC-CPU/lib/python3.7/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+lr_init: 0.0005
+max_input_size: 1500
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_LarvNov18/Documentation_data-Larv_95shuffle1.pickle
+min_input_size: 64
+mirror: false
+multi_step:
+- - 0.0001
+  - 7500
+- - 5.0e-05
+  - 12000
+- - 1.0e-05
+  - 200000
+net_type: resnet_50
+num_joints: 3
+num_limbs: 2
+optimizer: adam
+pafwidth: 20
+pairwise_huber_loss: false
+pairwise_loss_weight: 0.1
+pairwise_predict: false
+partaffinityfield_graph:
+- - 0
+  - 1
+- - 1
+  - 2
+partaffinityfield_predict: true
+pos_dist_thresh: 17
+project_path: /Users/hadi/Applications/Larv-Hadi-2020-10-19/Ma_Rig2
+rotation: 25
+rotratio: 0.4
+save_iters: 10000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+weigh_only_present_joints: false

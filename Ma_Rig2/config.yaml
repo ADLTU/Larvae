@@ -1,0 +1,85 @@
+    # Project definitions (do not edit)
+Task: Larv
+scorer: Hadi
+date: Nov18
+multianimalproject: true
+
+    # Project path (change when moving around)
+project_path: /Users/hadi/Applications/Larv-Hadi-2020-10-19/Ma_Rig2
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/hadi/Applications/MR2_cropped.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/MR1_cropped.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/G_cropped.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/H_cropped.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/J_cropped.mp4:
+    crop: 0, 400, 0, 400
+individuals:
+- Larva1
+- Larva2
+- Larva3
+- Larva4
+- Larva5
+uniquebodyparts: []
+multianimalbodyparts:
+- Mid
+- Front
+- Back
+skeleton:
+- - Mid
+  - Front
+- - Front
+  - Back
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 30
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 1
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: true
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+video_sets_original:
+  /Users/hadi/Applications/MR2.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/MR1.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/DLC_Videos/WA14.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/G.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/H.mp4:
+    crop: 0, 400, 0, 400
+  /Users/hadi/Applications/Nicks behaviour data for Hadi/J.mp4:
+    crop: 0, 400, 0, 400
