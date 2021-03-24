@@ -32,7 +32,7 @@ dataset_type: imgaug
 decay_steps: 30000
 display_iters: 1000
 global_scale: 0.8
-init_weights: /Users/hadi/opt/anaconda3/envs/DLC-CPU/lib/python3.7/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+init_weights: /content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-77000
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 location_refinement: true
@@ -45,12 +45,8 @@ metadataset: training-datasets/iteration-0/UnaugmentedDataSet_BlackNov24/Documen
 min_input_size: 64
 mirror: false
 multi_step:
-- - 0.005
-  - 10000
-- - 0.02
-  - 430000
 - - 0.002
-  - 730000
+  - 15000
 - - 0.001
   - 1030000
 net_type: resnet_50
@@ -59,7 +55,7 @@ pairwise_huber_loss: false
 pairwise_predict: false
 partaffinityfield_predict: false
 pos_dist_thresh: 17
-project_path: /Users/hadi/Applications/Larvae/All_Black-Spine
+project_path: /content/DLC/All_Black-Spine
 rotation: 25
 rotratio: 0.4
 save_iters: 50000

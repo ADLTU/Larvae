@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-41000"
+all_model_checkpoint_paths: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-37000"
+all_model_checkpoint_paths: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-38000"
+all_model_checkpoint_paths: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-39000"
+all_model_checkpoint_paths: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-40000"
+all_model_checkpoint_paths: "/content/DLC/All_Black-Spine/dlc-models/iteration-0/BlackNov24-trainset95shuffle2/train/snapshot-41000"
