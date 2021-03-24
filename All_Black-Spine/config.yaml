@@ -5,7 +5,7 @@ date: Nov24
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: /Users/hadi/Applications/Larv-Hadi-2020-10-19/All_Black-Spine
+project_path: /Users/hadi/Applications/Larvae/All_Black-Spine
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -52,6 +52,10 @@ video_sets:
   /Users/hadi/Applications/DLC_Videos/For Hadi/TH - Gt 1 2.mov:
     crop: 0, 640, 0, 480
   /Users/hadi/Applications/DLC_Videos/For Hadi/TH - Gt 1 3.mov:
+    crop: 0, 640, 0, 480
+  /Users/hadi/Downloads/For Hadi/TH - Cs 1.mov:
+    crop: 0, 640, 0, 480
+  /Users/hadi/Downloads/For Hadi/TH - Cs 3.mov:
     crop: 0, 640, 0, 480
 bodyparts:
 - bodypart1
