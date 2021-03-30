@@ -57,6 +57,8 @@ video_sets:
     crop: 0, 640, 0, 480
   /Users/hadi/Downloads/For Hadi/TH - Cs 3.mov:
     crop: 0, 640, 0, 480
+  /content/TH - Gt 1 9.mov:
+    crop: 0, 640, 0, 480
 bodyparts:
 - bodypart1
 - bodypart2
